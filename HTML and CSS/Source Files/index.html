@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    
+    .section {
+      margin-bottom: 40px;
+    }
+    
+    .section h2 {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    
+    .project {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    
+    .project img {
+      max-width: 300px;
+      height: auto;
+      margin-right: 20px;
+    }
+    
+    .project-details {
+      flex: 1;
+    }
+    
+    .project h3 {
+      margin: 0;
+    }
+    
+    .project p {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+  
+  <div class="container">
+    <div class="section">
+      <h2>About Me</h2>
+      <p>Hi 👋 I'm Harsh, a university student pursuing a Bachelors degree in Software Engineering in Germany!</p>
+    </div>
+    
+    <div class="section">
+      <h2>My Projects</h2>
+      
+      <div class="project">
+        <img src="images/Calculator.jpg" alt="Calculator">
+        <div class="project-details">
+          <h3>Calculator</h3>
+          <p>Basic calculator application using the Tkinter library in Python. It creates a GUI window with buttons for digits, operators, and special functions. It supports keyboard input as well. The user can enter expressions, perform arithmetic operations and get the results. It provides a simple yet functional calculator interface.</p>
+        </div>
+      </div>
+      
+      <div class="project">
+        <img src="images/Tic-Tac-Toe.jpg" alt="Tic-Tac-Toe">
+        <div class="project-details">
+          <h3>Tic-Tac-Toe</h3>
+          <p>Tic-Tac-Toe game using the Tkinter library in Python. It has a board represented by a 3x3 grid of boxes. Each player take turns by clicking on the empty boxes to mark their moves. It checks for a winner after each turn, the first player to get three in a row wins the game. In case the board is full, the game ends in a tie. It can even be reset.</p>
+        </div>
+      </div>
+      
+      <div class="project">
+        <img src="images/Rock-Paper-Scissors.jpg" alt="Rock-Paper-Scissors">
+        <div class="project-details">
+          <h3>Rock-Paper-Scissors</h3>
+          <p>A basic implementation of "Rock, Paper, Scissors" played between a user and a computer. The user selects their choice, and the computer generates a random choice. The code determines the winner based on the rules: rock beats scissors, paper beats rock, and scissors beat paper. The scores are recorded and it continues until the user decides to quit.</p>
+        </div>
+      </div>
+      
+      <div class="project">
+        <img src="images/QR-Code-Generator.jpg" alt="QR-Code-Generator">
+        <div class="project-details">
+          <h3>QR-Code-Generator</h3>
+          <p>This Python script generates a QR code image using the qrcode library. It prompts the user to enter a URL and an optional filename. The script then generates the QR code with default settings and saves it as an image file named "qr.png" or with the specified filename if provided.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>Contact Me </h2>
+      <p>Email: harshdani@myyahoo.com</p>
+      <p>Phone: +49 015737999762</p>
+    </div>
+  </div>
+</body>
+</html>
